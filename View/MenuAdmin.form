@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="View.MenuAdmin">
+  <grid id="27dc6" binding="panelView" layout-manager="GridLayoutManager" row-count="9" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="5" y="0" width="496" height="410"/>
+    </constraints>
+    <properties>
+      <background color="-329492"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="e164f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="72" style="1"/>
+          <foreground color="-16375261"/>
+          <text value="MENU"/>
+        </properties>
+      </component>
+      <component id="9e5e6" class="javax.swing.JButton" binding="exitButton">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="350" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16175061"/>
+          <font name="Consolas" size="26" style="1"/>
+          <foreground color="-1"/>
+          <text value="EXIT"/>
+        </properties>
+      </component>
+      <component id="45ec6" class="javax.swing.JToolBar$Separator">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="26c08" class="javax.swing.JToolBar$Separator">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="b4360" class="javax.swing.JToolBar$Separator">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="e99c7" class="javax.swing.JToolBar$Separator">
+        <constraints>
+          <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="17ea2" class="javax.swing.JToolBar$Separator">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="98d8" class="javax.swing.JButton" binding="userButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="350" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-527151"/>
+          <font name="Consolas" size="26" style="1"/>
+          <foreground color="-16175061"/>
+          <text value="User "/>
+        </properties>
+      </component>
+      <component id="ea26b" class="javax.swing.JToolBar$Separator">
+        <constraints>
+          <grid row="1" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="fae1f" class="javax.swing.JButton" binding="createExamButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="1" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="350" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-8735876"/>
+          <font name="Consolas" size="26" style="1"/>
+          <text value="Create Exam "/>
+        </properties>
+      </component>
+      <component id="72c21" class="javax.swing.JButton" binding="createQuestionButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="350" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-11626630"/>
+          <font name="Consolas" size="26" style="1"/>
+          <text value="Create Question"/>
+        </properties>
+      </component>
+      <component id="e9f4f" class="javax.swing.JButton" binding="examinationRoomButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="350" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12481666"/>
+          <font name="Consolas" size="26" style="1"/>
+          <text value="Examination Room"/>
+        </properties>
+      </component>
+      <component id="f798d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
